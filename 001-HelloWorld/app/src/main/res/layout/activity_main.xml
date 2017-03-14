@@ -19,5 +19,6 @@
         android:id="@+id/helloWorldText"
         tools:layout_margin="@dimen/activity_horizontal_margin"
         android:padding="@dimen/activity_horizontal_margin"
-        android:layout_margin="@dimen/activity_vertical_margin"/>
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
