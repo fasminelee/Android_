@@ -1,4 +1,4 @@
-package com.fasminelee.a003_alertdialog;
+package com.fasminelee.a003_simpleadapter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

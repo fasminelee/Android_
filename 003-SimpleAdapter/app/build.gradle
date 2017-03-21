@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.fasminelee.a003_alertdialog"
+        applicationId "com.fasminelee.a003_simpleadapter"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1

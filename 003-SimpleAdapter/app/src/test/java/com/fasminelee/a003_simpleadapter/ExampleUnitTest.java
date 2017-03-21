@@ -1,4 +1,4 @@
-package com.fasminelee.a003_alertdialog;
+package com.fasminelee.a003_simpleadapter;
 
 import org.junit.Test;
 

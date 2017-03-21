@@ -1,4 +1,4 @@
-package com.fasminelee.a003_alertdialog;
+package com.fasminelee.a003_simpleadapter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.fasminelee.a003_alertdialog", appContext.getPackageName());
+        assertEquals("com.fasminelee.a003_simpleadapter", appContext.getPackageName());
     }
 }
