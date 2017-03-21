@@ -11,6 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.fasminelee.a002_linearlayout.RelativeLayoutActivity">
 
+    <!--RedView-->
     <TextView
         android:text="RED"
         android:id="@+id/TextView01"
@@ -21,6 +22,7 @@
         android:layout_width="wrap_content"
         android:padding="25dp"></TextView>
 
+    <!--orangeView-->
     <TextView
         android:text="ORANGE"
         android:layout_height="wrap_content"
@@ -32,6 +34,7 @@
         android:layout_centerHorizontal="true"
         android:padding="25dp"></TextView>
 
+    <!--yellowView-->
     <TextView
         android:text="YELLOW"
         android:layout_height="wrap_content"
@@ -43,6 +46,7 @@
         android:layout_alignParentRight="true"
         android:padding="25dp"></TextView>
 
+    <!--greenView-->
     <TextView
         android:text="GREEN"
         android:layout_height="wrap_content"
@@ -55,6 +59,7 @@
         android:padding="25dp"
         android:layout_centerVertical="true"></TextView>
 
+    <!--blueView-->
     <TextView
         android:text="BLUE"
         android:layout_height="wrap_content"
