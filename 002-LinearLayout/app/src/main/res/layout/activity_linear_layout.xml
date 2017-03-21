@@ -13,12 +13,13 @@
 
 
     <LinearLayout
+        android:id="@+id/One"
+        android:layout_below="@+id/Two"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_marginTop="57dp"
-        android:layout_below="@+id/linearLayout3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="57dp">
 
         <TextView
             android:text="One,One"
@@ -30,7 +31,6 @@
             android:text="One,Two"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="5dp"/>
 
         <TextView
@@ -47,96 +47,104 @@
 
     </LinearLayout>
 
-    <LinearLayout android:layout_height="wrap_content"
-                  android:layout_width="match_parent"
-                  android:layout_centerVertical="true"
-                  android:layout_alignParentLeft="true"
-                  android:layout_alignParentStart="true">
-        <TextView android:text="Three,One"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-        <TextView android:text="Three,Two"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_weight="1"
-                  android:layout_margin="5dp"/>
-
-        <TextView android:text="Three,Three"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-        <TextView android:text="Three,Four"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-
-    </LinearLayout>
-
-    <LinearLayout android:layout_height="wrap_content"
-                  android:layout_width="match_parent"
-                  android:layout_below="@+id/textView"
-                  android:layout_alignParentLeft="true"
-                  android:layout_alignParentStart="true">
-
-        <TextView android:text="Two,Two"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_weight="1"
-                  android:layout_marginLeft="67dp"
-                  android:layout_marginTop="37dp"
-                  android:layout_below="@+id/linearLayout2"
-                  android:layout_alignParentLeft="true"
-                  android:layout_alignParentStart="true"
-                  android:layout_marginStart="67dp"
-            />
-
-        <TextView android:text="Two,One"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-
-        <TextView android:text="Two,Three"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-
-        <TextView android:text="Two,Four"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-    </LinearLayout>
-
     <LinearLayout
-        android:layout_height="match_parent"
+        android:id="@+id/Two"
+        android:layout_below="@+id/Three"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_marginBottom="130dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <TextView android:text="Four,One"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
+        <TextView
+            android:text="Two,One"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
 
-        <TextView android:text="Four,Two"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_weight="1"
-                  android:layout_margin="5dp"/>
+        <TextView
+            android:text="Two,Two"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
 
-        <TextView android:text="Four,Three"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
+        <TextView
+            android:text="Two,Three"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
 
-        <TextView android:text="Four,Four"
-                  android:layout_height="wrap_content"
-                  android:layout_width="wrap_content"
-                  android:layout_margin="5dp"/>
-
+        <TextView
+            android:text="Two,Four"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/Three"
+        android:layout_below="@+id/Four"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Three,One"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Three,Two"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Three,Three"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Three,Four"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+<!-- android:layout_centerVertical="true"-->
+
+    <LinearLayout
+        android:id="@+id/Four"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Four,One"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Four,Two"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Four,Three"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Four,Four"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
 
 </RelativeLayout>
