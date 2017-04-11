@@ -13,27 +13,27 @@
 
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-5b61aadc846f0818981ceec31b49c475fb084c163fdec5efbc2c21ef539092a9.css" media="all" rel="stylesheet" />
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-c9c526463f5ffa74c1d350222904e12065e085b6bd4597c9a7b141dd53e24733.css" media="all" rel="stylesheet" />
-  
-  
+
+
   <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-c5a10f2dd52fbbd6c1316d032ac0ad965777a07143019844efd90707eb09d4c0.css" media="all" rel="stylesheet" />
-  
+
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>Android_/README.md at master · fasminelee/Android_ · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    
+
     <meta content="https://avatars2.githubusercontent.com/u/18535216?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="fasminelee/Android_" property="og:title" /><meta content="https://github.com/fasminelee/Android_" property="og:url" /><meta content="Android_ - AndroidTutorials" property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  
+
   <meta name="pjax-timeout" content="1000">
-  
+
   <meta name="request-id" content="5DF7:6D01:8F0DCC:E035B2:58DA1607" data-pjax-transient>
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -50,7 +50,7 @@
   <meta class="js-ga-set" name="dimension1" content="Logged Out">
 
 
-  
+
 
       <meta name="hostname" content="github.com">
   <meta name="user-login" content="">
@@ -62,9 +62,9 @@
   <meta name="html-safe-nonce" content="ac11c3dadd813653c85a1199b5bd5a2c570ac1ae">
 
   <meta http-equiv="x-pjax-version" content="8567529326e069382fdf44816c65dc75">
-  
 
-    
+
+​    
   <meta name="description" content="Android_ - AndroidTutorials">
   <meta name="go-import" content="github.com/fasminelee/Android_ git https://github.com/fasminelee/Android_.git">
 
@@ -90,15 +90,15 @@
   </head>
 
   <body class="logged-out env-production page-blob">
-    
+​    
 
 
   <div class="position-relative js-header-wrapper ">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
 
-    
-    
+
+​    
     <div class="unsupported-browser">
   <div class="container clearfix">
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/dismiss_unsupported_browser" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sr0PVpj/5kSVIRmlRyu0TGHUWG1Th+Od9uJKCYXfPr6hOr4dRfk8MPqm6RiP/ktKlSZlKgoEJzn1GHgyFUymbg==" /></div>
@@ -118,11 +118,11 @@
     <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
     </a>
-
+    
     <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
       <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
     </button>
-
+    
     <div class="site-header-menu">
       <nav class="site-header-nav">
         <a href="/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
@@ -176,7 +176,7 @@
   <div role="main">
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
     <div id="js-repo-pjax-container" data-pjax-container>
-        
+
 
 
   <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
@@ -220,7 +220,7 @@
         <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
         Fork
       </a>
-
+    
     <a href="/fasminelee/Android_/network" class="social-count"
        aria-label="2 users forked this repository">
       2
@@ -238,7 +238,7 @@
 
     </div>
     <div class="container">
-      
+
 <nav class="reponav js-repo-nav js-sidenav-container-pjax"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -292,17 +292,17 @@
 <div class="container new-discussion-timeline experiment-repo-nav">
   <div class="repository-content">
 
-    
+​    
 
 <a href="/fasminelee/Android_/blob/35a5a3ba2a4f295721204047646b3960a2b83816/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
 <!-- blob contrib key: blob_contributors:v21:883fd3a9b571e4e882721fa36011faa7 -->
 
 <div class="file-navigation js-zeroclipboard-container">
-  
+
 <div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
   <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
+​    
     type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
       <i>Branch:</i>
       <span class="js-select-button css-truncate-target">master</span>
@@ -315,7 +315,7 @@
         <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
         <span class="select-menu-title">Switch branches/tags</span>
       </div>
-
+    
       <div class="select-menu-filters">
         <div class="select-menu-text-filter">
           <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
@@ -331,9 +331,9 @@
           </ul>
         </div>
       </div>
-
+    
       <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
-
+    
         <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
 
 
@@ -348,10 +348,10 @@
               </span>
             </a>
         </div>
-
+    
           <div class="select-menu-no-results">Nothing to show</div>
       </div>
-
+    
       <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
         <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
 
@@ -360,7 +360,7 @@
 
         <div class="select-menu-no-results">Nothing to show</div>
       </div>
-
+    
     </div>
   </div>
 </div>
@@ -393,7 +393,7 @@
         <a href="/fasminelee" class="user-mention" rel="author">fasminelee</a>
           <a href="/fasminelee/Android_/commit/56f928e44f8c2f0fc2fbf8a2c291d89c4722d789" class="message" data-pjax="true" title="ready">ready</a>
       </div>
-
+    
     <div class="commit-tease-contributors">
       <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
         <strong>1</strong>
@@ -401,7 +401,7 @@
       </button>
       
     </div>
-
+    
     <div id="blob_contributors_box" style="display:none">
       <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
       <ul class="facebox-user-list" data-facebox-id="facebox-description">
@@ -441,7 +441,7 @@
   </div>
 </div>
 
-  
+
   <div id="readme" class="readme blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-android_" class="anchor" href="#android_" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android_</h1>
 <p><em>an assortment of AndroidTutorials.</em></p>
@@ -457,8 +457,25 @@
 </div>
 <h2><a id="user-content-003-simpleadapter" class="anchor" href="#003-simpleadapter" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>003-SimpleAdapter</h2>
 <p><a href="/fasminelee/Android_/blob/master" target="_blank"><img src="/fasminelee/Android_/raw/master" width="30%" style="max-width:100%;"></a></p>
-<h2><a id="user-content-004-" class="anchor" href="#004-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>004-</h2>
-<p><a href="https://github.com/fasminelee/Android_/blob/master/images/004-asf_logo.png " target="_blank"><img src="https://github.com/fasminelee/Android_/raw/master/images/004-asf_logo.png " style="max-width:100%;"></a></p>
+<h2><a id="user-content-004-" class="anchor" href="#004-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>004-PrefereceFragment</h2>
+<p>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment1.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment1.png" style="max-width:100%;"></a>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment2.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment2.png" style="max-width:100%;"></a>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment3.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment3.png" style="max-width:100%;"></a>
+</p>
+
+<p>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment4.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment4.png" style="max-width:100%;"></a>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment5.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment5.png" style="max-width:100%;"></a>
+<a
+href="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment6.png" target="_blank"><img src="https://github.com/fasminelee/Android_/blob/master/preview/004-PrefereceFragment6.png" style="max-width:100%;"></a>
+</p>
+</p>
 </article>
   </div>
 
@@ -492,9 +509,9 @@
       <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
         <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
         <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
-
+    
     </ul>
-
+    
     <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
