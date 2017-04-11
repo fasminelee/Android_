@@ -1,8 +1,7 @@
-package com.fasminelee.a003_uicomponent;
+package edu.fjnu.cse.uicomponenttutorials;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,15 +13,16 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class SimpleAdapter extends AppCompatActivity {
+public class SimpleAdapterTutorial extends Activity {
 
+    //initialize view's
     ListView simpleListView;
     String[] animalName={"Lion","Tiger","Monkey","Dog","Cat","Elephant"};//animal names array
     int[] animalImages={R.drawable.lion,R.drawable.tiger,R.drawable.monkey,R.drawable.dog,R.drawable.cat,R.drawable.elephant};//animal images array
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_adapter);
+        setContentView(R.layout.activity_simple_adapter_tutorial);
         simpleListView=(ListView)findViewById(R.id.simpleListView);
 
         ArrayList<HashMap<String,String>> arrayList=new ArrayList<>();

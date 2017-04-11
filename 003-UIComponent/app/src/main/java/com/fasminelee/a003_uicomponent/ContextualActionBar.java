@@ -1,7 +1,6 @@
-package com.fasminelee.a003_uicomponent;
+package edu.fjnu.cse.uicomponenttutorials;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Context;
@@ -22,20 +21,20 @@ import android.widget.ListView;
 import java.util.HashMap;
 import java.util.Set;
 
-public class ContextualActionBar extends AppCompatActivity {
+public class ContextualActionBarTutorial extends ListActivity {
 
-    private String[] data = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
+    private String[] data = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine","Ten"};
 
     private SelectionAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contextual_action_bar);
+        setContentView(R.layout.activity_contextual_action_bar_tutorial);
 
-        mAdapter = new SelectionAdapter(this, R.layout.row_list_item, R.id.textView1, data);
+        mAdapter = new SelectionAdapter(this,
+                R.layout.row_list_item, R.id.textView1, data);
         setListAdapter(mAdapter);
-
         getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
 
         getListView().setMultiChoiceModeListener(new AbsListView.MultiChoiceModeListener() {
@@ -44,16 +43,19 @@ public class ContextualActionBar extends AppCompatActivity {
 
             @Override
             public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+                // TODO Auto-generated method stub
                 return false;
             }
 
             @Override
             public void onDestroyActionMode(ActionMode mode) {
+                // TODO Auto-generated method stub
                 mAdapter.clearSelection();
             }
 
             @Override
             public boolean onCreateActionMode(ActionMode mode, Menu menu) {
+                // TODO Auto-generated method stub
 
                 nr = 0;
                 MenuInflater inflater = getMenuInflater();
@@ -63,6 +65,7 @@ public class ContextualActionBar extends AppCompatActivity {
 
             @Override
             public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+                // TODO Auto-generated method stub
                 switch (item.getItemId()) {
 
                     case R.id.item_delete:
@@ -76,6 +79,7 @@ public class ContextualActionBar extends AppCompatActivity {
             @Override
             public void onItemCheckedStateChanged(ActionMode mode, int position,
                                                   long id, boolean checked) {
+                // TODO Auto-generated method stub
                 if (checked) {
                     nr++;
                     mAdapter.setNewSelection(position, checked);
@@ -93,6 +97,7 @@ public class ContextualActionBar extends AppCompatActivity {
             @Override
             public boolean onItemLongClick(AdapterView<?> arg0, View arg1,
                                            int position, long arg3) {
+                // TODO Auto-generated method stub
 
                 getListView().setItemChecked(position, !mAdapter.isPositionChecked(position));
                 return false;

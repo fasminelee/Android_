@@ -1,13 +1,13 @@
-package com.fasminelee.a003_uicomponent;
+package edu.fjnu.cse.uicomponenttutorials;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btn_simpleadapter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SimpleAdapter.class);
+                Intent intent = new Intent(MainActivity.this, SimpleAdapterTutorial.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btn_custom_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, CustomDialog.class);
+                Intent intent = new Intent(MainActivity.this, CustomDialogTutorial.class);
                 startActivity(intent);
             }
         });
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         btn_xml_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, XmlDefineMenu.class);
+                Intent intent = new Intent(MainActivity.this, XmlDefineMenuTutorial.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         btn_action_context.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ContextualActionBar.class);
+                Intent intent = new Intent(MainActivity.this, ContextualActionBarTutorial.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         btn_process_bar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ProgressBar.class);
+                Intent intent = new Intent(MainActivity.this, ProgressBarTutorial.class);
                 startActivity(intent);
             }
         });

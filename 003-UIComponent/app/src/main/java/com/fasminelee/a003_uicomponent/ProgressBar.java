@@ -1,14 +1,12 @@
-package com.fasminelee.a003_uicomponent;
+package edu.fjnu.cse.uicomponenttutorials;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.widget.ProgressBar;
 
-
-public class ProgressBar extends AppCompatActivity {
-
+public class ProgressBarTutorial extends Activity {
     private static final int PROGRESS = 0x1;
 
     private ProgressBar mProgress;
@@ -22,7 +20,7 @@ public class ProgressBar extends AppCompatActivity {
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        setContentView(R.layout.activity_progress_bar);
+        setContentView(R.layout.activity_progress_bar_tutorial);
 
         mProgress = (ProgressBar) findViewById(R.id.progress_bar);
 
@@ -55,4 +53,5 @@ public class ProgressBar extends AppCompatActivity {
         }
         return hasData;
     }
+
 }

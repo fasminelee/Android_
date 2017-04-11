@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">003-UIComponent</string>
+    <string name="app_name">UiComponentTutorials</string>
     <string name="action_settings">Settings</string>
     <string name="custom_dialog_tutorial">自定义对话框</string>
     <string name="signin">Sign in</string>

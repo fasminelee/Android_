@@ -1,7 +1,5 @@
-package com.fasminelee.a003_uicomponent;
+package edu.fjnu.cse.uicomponenttutorials;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -10,8 +8,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class XmlDefineMenu extends AppCompatActivity {
-
+public class XmlDefineMenuTutorial extends Activity {
     TextView tv_test;
 
     @Override
@@ -51,4 +48,7 @@ public class XmlDefineMenu extends AppCompatActivity {
         }
         return true;
     }
+
+
+
 }
